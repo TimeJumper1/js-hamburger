@@ -6,9 +6,10 @@ const hamburgerMenu = document.getElementsByClassName('hamburger-menu');
 console.log(hamburgerMenu);
 
 
-hamburger.addEventListener('click',
+hamburger[0].addEventListener('click',
     function() {
         const hamburgerMenu = document.getElementsByClassName('hamburger-menu');
-        hamburgerMenu.classList.toggle(' active');
+        hamburgerMenu[0].classList.toggle('active');
+        const xMenu = document.getElementsByClassName('');
     }
 );
